@@ -4,8 +4,10 @@ import './style.css';
 function Enz() {
   const [cls1, setCls1] = useState("invisible");
   const [cls2, setCls2] = useState("invisible");
+  const [cls3, setCls3] = useState("invisible");
   const click1 = () =>{cls1==="visible"? setCls1("invisible"): setCls1("visible")}
   const click2 = () =>{cls2==="visible"? setCls2("invisible"): setCls2("visible")}
+  const click3 = () =>{cls3==="visible"? setCls3("invisible"): setCls3("visible")}
 
   return (
    <div className="center">
@@ -27,6 +29,14 @@ function Enz() {
         <img src='./testing2.png'   
             className={cls2}/>      
       </div>  
+
+      <div>
+        <button onClick={click3}>
+             (Cypress) End-to-End testing
+        </button><br />             
+        <img src='./testing3.png'   
+            className={cls3}/>      
+      </div> 
    </div>
   );
 }

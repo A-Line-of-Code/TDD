@@ -20,13 +20,18 @@ describe('App Component', () =>{
       expect(callback).toEqual(1);      
      });
     */
+    it('renders images', () => {
+      const wrapper = shallow(<Enz />);      
+      const invisible = wrapper.find('.invisible').length;
+      expect(invisible).toEqual(3);
+    }); 
 
     it('Should set the class on click event', () => {       
       const wrapper = shallow(<Enz />);
       const button = wrapper.find('#btn1');
       button.simulate('click');
       const invisible = wrapper.find('.invisible').length;
-      expect(invisible).toEqual(1);
+      expect(invisible).toEqual(2);
     });
 
 })
