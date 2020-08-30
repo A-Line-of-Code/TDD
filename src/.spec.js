@@ -11,22 +11,22 @@ describe('App Component', () =>{
       expect(wrapper.find(Enz).length).toEqual(1);
     });   
     
+    /* 
     it('Should emit callback on click event', () => {       
       const wrapper = shallow(<Enz />);
       const button = wrapper.find('#btn1');
       button.simulate('click');
       const callback = jest.fn().mock.calls.length;
-      expect(callback).toEqual(1);
+      expect(callback).toEqual(1);      
+     });
+    */
 
-      
-  });
-
-  it('Should set the class on click event', () => {       
-    const wrapper = shallow(<Enz />);
-    const button = wrapper.find('#btn1');
-    button.simulate('click');
-    const invisible = wrapper.find('.invisible').length;
-    expect(invisible).toEqual(2);
-  });
+    it('Should set the class on click event', () => {       
+      const wrapper = shallow(<Enz />);
+      const button = wrapper.find('#btn1');
+      button.simulate('click');
+      const invisible = wrapper.find('.invisible').length;
+      expect(invisible).toEqual(1);
+    });
 
 })
