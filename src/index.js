@@ -1,11 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const Header = (props) => {
-  return(
-    <div className='headerComponent'>
-      Hi
-    </div>
-  )
-}
 
-export default Header;
+ReactDOM.render(    
+        <App />  
+    , document.getElementById('root'));
