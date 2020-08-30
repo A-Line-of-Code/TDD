@@ -86,3 +86,9 @@ img{
     max-width:70%;
     height: auto;
 }
+
+@media (max-width: 375px) {
+    button{
+      font-size: 10px;      
+    }
+}
