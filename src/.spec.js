@@ -25,7 +25,7 @@ describe('App Component', () =>{
     const wrapper = shallow(<Enz />);
     const button = wrapper.find('#btn1');
     button.simulate('click');
-    const invisible = wrapper.find('.invisible');
+    const invisible = wrapper.find('.invisible').length;
     expect(invisible).toEqual(2);
   });
 

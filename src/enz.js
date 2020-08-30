@@ -16,10 +16,10 @@ function Enz() {
       </div>
       <div>
         <button id='btn1' onClick={click1}>
-              components are rendered
+              The component is rendered
         </button><br />    
         <img src='./img.png' height='300px'
-            className={cls1 === "visible" ? "visible" : "invisible"}/>
+            className={cls1}/>
       </div>
 
       <div>
@@ -27,7 +27,7 @@ function Enz() {
               onClick event works
         </button><br />
         <img src='./img.png' height='300px'
-            className={cls2 === "visible" ? "visible" : "invisible"}/>      
+            className={cls2}/>      
       </div>
 
       <div>
@@ -35,7 +35,7 @@ function Enz() {
               class is toggled
         </button><br />
         <img src='./img.png'   
-            className={cls3 === "visible" ? "visible" : "invisible"}/>      
+            className={cls3}/>      
       </div>
    </div>
   );
