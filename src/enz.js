@@ -15,7 +15,7 @@ function Enz() {
       How was this website tested?
       </div>
       <div>
-        <button onClick={click1}>
+        <button id='btn1' onClick={click1}>
               components are rendered
         </button><br />    
         <img src='./img.png' height='300px'
