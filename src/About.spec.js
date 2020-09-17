@@ -1,13 +1,13 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from './app';
+import {About} from "./About"
 import Enz from './enz';
 
 
-describe('App Component', () =>{
+describe('About Component', () =>{
 
     it('renders <Enz /> component', () => {
-      const wrapper = shallow(<App />);
+      const wrapper = shallow(<About />);
       expect(wrapper.find(Enz).length).toEqual(1);
     });   
     

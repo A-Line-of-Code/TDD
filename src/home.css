@@ -1,0 +1,64 @@
+@import url('https://fonts.google.apis.com/css?family=Source+Sans+Pro'); 
+*{
+    box-sizing: border-box;
+}
+
+#pw{
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.invisible{
+  display:none;
+}
+
+#homeDiv{  
+  margin: 20vh auto;
+  width: 50%;
+  text-align: center;  
+  font-family: 'Source Sans Pro', sans-serif ;
+  font-size: 1.3rem;  
+}
+
+#resultSpan{
+  border: 3px solid green;
+  text-align: center;
+  width: 75%;
+  background-color: #333;
+  color: aqua;
+  padding: 2vh;
+  margin: 0 auto;
+  font-size: 1.5rem;  
+}
+
+
+
+#genBut{
+  border-radius: 50px;
+  text-align: center;   
+  padding: 1vh;
+  margin: 2vh auto;
+  background-color: #555;
+  color:beige;
+  border: none;
+  text-decoration: none;
+  cursor:pointer;
+  outline:none;
+}
+
+input{ 
+  cursor:pointer;
+}
+
+
+@media (max-width: 640px) {
+  *{
+    font-size: 1rem;      
+  }
+  #resultSpan{    
+    width: 85%;    
+    font-size: 0.9rem; 
+    padding: 2vh 0; 
+  }
+}

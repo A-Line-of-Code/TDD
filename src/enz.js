@@ -16,17 +16,17 @@ function Enz() {
       </div>
       <div>
         <button id='btn1' onClick={click1}>
-              The component is rendered.
+              Elements are rendered.
         </button><br />                  
-        <img src='./testing1.png'
+        <img src='./testing4.png'
             className={cls1}/>
       </div>      
 
       <div>
         <button onClick={click2}>
-             The state is set on click event.
+             OnChange event works.
         </button><br />             
-        <img src='./testing2.png'   
+        <img src='./testing5.png'   
             className={cls2}/>      
       </div>  
 
@@ -34,7 +34,7 @@ function Enz() {
         <button onClick={click3}>
              (Cypress) End-to-End testing
         </button><br />             
-        <img src='./testing3.png'   
+        <img src='./testing6.png'   
             className={cls3}/>      
       </div> 
    </div>
