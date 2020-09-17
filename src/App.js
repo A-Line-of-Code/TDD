@@ -23,14 +23,14 @@ export default function App() {
             <div id="navbar-links" >
               <ul>
               <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
               <Link to="/about">Testing</Link>
-            </li>
-                <li><a href="https://github.com/A-Line-of-Code/TDD" target="_blank">
-                  Source Code
-                </a></li>
+              </li>
+              <li><a href="https://portfoliosky.azurewebsites.net/">
+                Portfolio
+              </a></li>           
+              <li><a href="https://github.com/A-Line-of-Code/TDD" target="_blank">
+                Source Code
+              </a></li>
               </ul>
             </div>
       </nav>
