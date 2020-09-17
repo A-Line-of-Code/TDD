@@ -34,7 +34,7 @@
 
 
 
-#genBut{
+#genBut, #copBut{
   border-radius: 50px;
   text-align: center;   
   padding: 1vh;
@@ -51,6 +51,9 @@ input{
   cursor:pointer;
 }
 
+#input-number{
+  width: 2.6rem;
+}
 
 @media (max-width: 640px) {
   *{
